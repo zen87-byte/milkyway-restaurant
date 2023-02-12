@@ -7,6 +7,7 @@ var pages = [
     {name: "pudding", url: "pudding.html"},
     {name: "sandwich", url: "sandwich.html"},
     {name: "tiramisu", url: "tiramisu.html"},
+    {name: "arrabiata", url: "/views/api/themealdb.html"},
   ];
 
   function validateAndRedirect() {
