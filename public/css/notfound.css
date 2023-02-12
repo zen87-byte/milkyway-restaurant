@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav{
+    padding: 16px auto;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #FFCB3E;
+  }
+  
+  
+  nav .logo img{
+    padding-top: 24px;
+    width: 30%;
+  }
+  .menu{
+    display: flex;
+  }
+  
+  .menu .search-bar form input{
+    padding: 6px;
+    border-radius: 16px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #333;
+    opacity: 0.7;
+    transition: 0.5s;
+    outline: none;
+    color: black;
+    width: 120px;
+  }
+  .menu .search-bar form input[type=text]:focus{
+    border: 1px solid black;
+    
+  }
+  
+  
+  nav .menu .menu-list ul{
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  nav .menu .menu-list ul li{
+    display:inline;
+    padding: 16px;
+  }
+  nav .menu .menu-list ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    
+  }
+  nav .menu ul li a:hover{
+    border-radius: 8px;
+    background-color: #FFAE00;
+  }
+
+#home{
+    height: 80vh;
+    text-align: center;
+    margin-top: 10%;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+p{
+    margin: 16px;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav{
+    background-color: #333;
+  }
+  footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  footer nav a:hover {
+    color: #FFCB3E; 
+  }

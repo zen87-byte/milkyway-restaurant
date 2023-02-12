@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found | Milky Way</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/logoo.png">
+    <link rel="stylesheet" href="/public/css/notfound.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#home">
+                <img src="/public/images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="menu-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#detail-menu">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <form onsubmit="return validateAndRedirect()">
+                    <input type="text" id="searchInput" placeholder="Search..." >
+                  </form>
+            </div>
+        </div>            
+    </nav>
+    <section id="home">
+        <div class="wrapper">
+            <h1>Oops...</h1>
+            <p>We can't seem to find anything for what you're looking for</p>
+            <p>See if you can find it on the homepage or try searching above!</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 Milky Way</p>
+          <nav>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>      
+      <script src="/public/script/script.js"></script>
+</body>
+</html>

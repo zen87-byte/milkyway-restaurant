@@ -1,0 +1,284 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/042/308/670/large/chen-7.jpg?1634142766');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav{
+  padding: 16px auto;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #FFCB3E;
+}
+
+
+nav .logo img{
+  padding-top: 24px;
+  width: 30%;
+}
+.menu{
+  display: flex;
+}
+
+.menu .search-bar form input{
+  padding: 6px;
+  border-radius: 16px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #333;
+  opacity: 0.7;
+  transition: 0.5s;
+  outline: none;
+  color: black;
+  width: 120px;
+}
+.menu .search-bar form input[type=text]:focus{
+  border: 1px solid black;
+  
+}
+
+
+nav .menu .menu-list ul{
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav .menu .menu-list ul li{
+  display:inline;
+  padding: 16px;
+}
+nav .menu .menu-list ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  
+}
+nav .menu ul li a:hover{
+  border-radius: 8px;
+  background-color: #FFAE00;
+}
+.wrapper #home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper #home .kolom{
+  width: 30%;   
+  margin-left: -60vw;
+}
+.wrapper #home .kolom .deskripsi{
+  border-radius: 8px;
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  padding: 20px;
+  color: white;
+}
+.wrapper #home .kolom .deskripsi .toko{
+  width: fit-content;
+}
+  .wrapper #home .kolom .deskripsi h1{
+    font-size: xxx-large;
+    color: #FFAE00;
+    text-shadow: -1px -1px 0 #F7CCAC, 1px -1px 0 #F7CCAC, -1px 1px 0 #F7CCAC, 1px 1px 0 #F7CCAC;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 5s steps(30, end) infinite,
+      blink-caret .5s step-end infinite;
+    }
+  /* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #FFAE00 }
+}
+  .wrapper #home .kolom .deskripsi .button{
+    background-color: #FFCB3E;
+    width: 28%;
+    padding: 8px;
+    border-radius: 16px;
+    color: black;
+    margin: 8px 0px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .wrapper #home .kolom .deskripsi .button:hover{
+    background-color: #FFAE00;
+  }
+  .wrapper #home .kolom .deskripsi .button a{
+    text-decoration: none;
+    color: black;
+  }
+
+.wrapper #detail-menu{
+  height: 105vh;
+  background-color: #FFFCF7;
+}
+
+.wrapper #detail-menu .title{
+  padding: 90px 0px 16px 0px;
+  text-align: center;
+  font-size: xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper #detail-menu .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+.wrapper #detail-menu .list .gambar img{
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.wrapper #detail-menu .list .dish{
+  width: 20%;
+  margin: 20px 10px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset black;
+  -webkit-box-shadow: 0px 0px 45px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 45px -25px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 45px -25px rgba(0,0,0,0.75);
+}
+.wrapper #detail-menu .list .dish:hover{
+  background-color: #FFCB3E;
+}
+
+.wrapper #detail-menu .list .info{
+  margin: 16px 0px;
+  padding: 0px 16px ;
+}
+.wrapper #detail-menu .list .info h2{
+  margin: 16px 0px;
+  padding: 0px 16px ;
+}
+.wrapper #detail-menu .list .tombol{
+  margin: 8px auto;
+  background-color: #FFCB3E;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+}
+.wrapper #detail-menu .list .tombol a{
+  text-decoration: none;
+  color: black;
+}
+.wrapper #detail-menu .list .tombol:hover{
+  background-color: #FFAE00;
+}
+
+/*Tablet*/
+@media screen and (max-width: 766px) {
+ 
+}
+
+/*Mobile*/
+@media screen and (max-width: 576px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+  nav{
+    line-height: 90%;
+    padding: 8px;
+  }
+  nav .logo img{
+    width: 30%;
+  }
+  nav .menu ul{
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  nav .menu ul li{
+    display:inline;
+    padding: 16px;
+  }
+  nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: 80%;
+  }
+    
+  .wrapper #home .kolom{
+    width: 50%;   
+    margin: auto;
+  }
+  .wrapper #detail-menu .list .dish{
+    width: 60%;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer nav{
+  background-color: #333;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+footer nav a:hover {
+  color: #FFCB3E; 
+}
+
+/*#ccc
+/FFAE00

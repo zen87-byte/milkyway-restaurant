@@ -1,0 +1,196 @@
+@font-face { font-family: lora; 
+  src: url('https://fonts.google.com/download?family=Lora'); } 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F7F7;
+    font-family: lora;
+  }
+  
+  nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 16px auto;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #FFCB3E;
+  }
+  
+  
+nav .logo img{
+  padding-top: 24px;
+  width: 30%;
+}
+.menu{
+  display: flex;
+}
+
+.menu .search-bar form input{
+  padding: 6px;
+  border-radius: 16px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #333;
+  opacity: 0.7;
+  transition: 0.5s;
+  outline: none;
+  color: black;
+  width: 120px;
+}
+.menu .search-bar form input[type=text]:focus{
+  border: 1px solid black;
+  
+}
+
+
+nav .menu .menu-list ul{
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav .menu .menu-list ul li{
+  display:inline;
+  padding: 16px;
+}
+nav .menu .menu-list ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  
+}
+nav .menu ul li a:hover{
+  border-radius: 8px;
+  background-color: #FFAE00;
+}
+.container{
+  margin: 0px 100px;
+  padding-top: 40px;
+  border-bottom: 1px solid #FFCB3E;
+}
+.overview{
+  width: 70%;
+  padding-bottom: 16px;
+}
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px 50px 100px 50px;
+    padding: 30px;
+}      
+.left{
+    width: 30%;
+    padding: 10px;
+}
+
+.left .gambar{
+    text-align: center;
+}
+.left .gambar img{
+    width: 70%;
+}
+.left .deskripsi{
+    margin: 10px 0px;
+  }
+.left .serving {
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #FFCB3E;
+}
+.left .deskripsi .serving ul{
+  list-style-type: none;
+}
+.left .deskripsi .serving ul li{
+  margin: 8px;
+  font-size:larger;
+}
+.left .deskripsi .fact{
+  background-color: #FFCB3E;
+  margin: 32px 8px;
+  padding: 16px;
+  text-align: center;
+}
+.left .deskripsi .fact .nutrition{
+  display: flex;
+  justify-content: space-around;
+  margin: 8px 0px;
+}
+
+.left .deskripsi .fact .nutrition div{
+  margin: 8px;
+}
+.left .deskripsi .fact .nutrition div p{
+  margin-top: 8px;
+}
+  .right{
+    margin: auto;
+    width: 60%;
+    padding: 32px;
+    background-color: #FFFFFF;
+  }
+  
+  .right .deskripsi .ingredients ul{
+    list-style-type: none;
+    border-bottom: 1px solid #FFCB3E;
+    padding-bottom: 16px;
+  }
+  .right .deskripsi .ingredients ul li{
+    margin: 16px 0px;
+    font-size: larger;
+  }
+
+  .right .deskripsi h2{
+    margin-top: 16px;
+  }
+  .right .deskripsi .direction h3,p{
+    margin: 16px 0px;
+    font-size: larger;
+  }
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer nav{
+  background-color: #333;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+footer nav a:hover {
+  color: #FFCB3E; 
+}
